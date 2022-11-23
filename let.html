@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .para p{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    body{
+        align-items: center;
+        background-color: beige;
+    }
+    .man{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: mann;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+        /* border-radius: 40px; */
+    }
+    @keyframes mann{
+        0%{
+            background-color: yellow;
+        }
+        25%{
+            background-color: rgb(37, 190, 80);
+        }
+        50%{
+            background-color: rgb(222, 53, 53);
+        }
+        100%{
+            background-color: rgb(98, 37, 203);
+        }
+        
+
+    }
+    .man-head{
+        display: flex;
+        border: 2px solid black;
+        width: 35px;
+        height: 35px;
+        border-radius: 40px;
+       
+
+
+    }
+    .man-body{
+        border: 2px solid black;
+        width: 110px;
+        height: 150px;
+        border-radius: 78px;
+     
+    }
+    .eyes{
+        border-radius: 2px solid black;
+        background-color: black;
+        width: 5px;
+        height: 5px;
+        /* margin-bottom: 20px; */
+        margin: 9px 3px 4px 7px;
+    }
+</style>
+<body>
+    <div class="man">
+
+        <div class="man-head">
+            <div class="eyes">
+
+            </div>
+            <div class="eyes">
+
+            </div>
+            <div class="nose">
+
+            </div>
+    
+        </div>
+
+        <div class="man-body">
+    
+        </div>
+        <div class="para">
+            <p>
+                Hello sir welcome to the demo of tiny adventure
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

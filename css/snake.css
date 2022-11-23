@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+.body{
+    background: url("../images/wp2409705.jpg"); 
+    min-height: 90vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+    font-size: 40px;
+
+}
+
+#board{
+    background: linear-gradient(rgb(237, 7, 7), rgb(237, 229, 7),rgb(4, 241, 16));
+    width: 80vmin;
+    height: 85vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    border-radius: 50px;
+}
+
+.head{
+    background: linear-gradient(rgb(231, 5, 243), rgb(107, 9, 227));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(9, 1, 1), rgb(244, 248, 250));
+    border: .25vmin solid black;
+    border-radius: 8px;
+}

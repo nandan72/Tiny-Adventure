@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+/*utility classes*/
+
+.m-auto {
+    margin: auto;
+    margin: 15px;
+}
+
+.m-auto2 {
+    margin: auto;
+    margin: 50px;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 1px 12px;
+    color: black;
+    background-color: rgb(152, 5, 152);
+    border-radius: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+.play a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin: 16px 145px;
+    background-color: rgb(152, 5, 152);
+    color: black;
+    padding: 10px 0px;
+    border-radius: 34px;
+}
+
+.play a:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+/*head and navbar*/
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+   
+}
+
+.heading {
+    text-align: center;
+    color: rgb(152, 5, 152);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 2px 5px;
+}
+
+.navbar ul li a {
+    list-style: none;
+    margin: 2px 20px;
+    background-color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+.search-login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*home section*/
+
+.head h1 {
+    margin: 50px;
+    color: rgb(152, 5, 152);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.home {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.img img {
+    border-radius: 240px;
+}
+
+
+
+.head2 {
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.follow {
+    display: flex;
+
+}
+
+#p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.follow div a {
+    text-decoration: none;
+    width: 50px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.follow .link a {
+    color: #0a66c2;
+}
+
+.follow .twit a {
+    color: rgb(29, 155, 240);
+}
+
+.follow .you a {
+    color: #c00;
+}
+
+.follow .insta a {
+    color: rgb(228, 64, 95)
+}
+
+
+
+
+
+/*game section*/
+
+.game {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*snake game*/
+
+.snake {
+   
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 0px 0px;
+    width: 399px;
+    height: 530px;
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 100ms;
+}
+
+.snake:hover{
+    transform:scale(0.9);
+}
+.rock:hover{
+    transform:scale(0.9);
+    cursor: pointer;
+}
+.tic:hover{
+    transform:scale(0.9);
+    cursor: pointer;
+}
+
+
+.snake img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.snake .p1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.snake .p2 {
+    text-align: center;
+    margin: 5px;
+}
+
+/*tic tac*/
+
+.tic {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 0px 0px;
+    width: 399px;
+    height: 530px;
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 100ms;
+}
+
+.tic img {
+    border-radius: 20px;
+}
+
+.tic .p1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.tic .p2 {
+    text-align: center;
+    margin: 5px;
+}
+
+
+/*rock paper*/
+
+.rock {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 0px 0px;
+    width: 399px;
+    height: 530px;
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 100ms;
+}
+
+.rock img {
+    border-radius: 20px;
+}
+
+.rock .p1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.rock .p2 {
+    text-align: center;
+    margin: 5px;
+}
+
+/*blog section*/
+
+.blog h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.blog p {
+    text-align: center;
+}
+
+.blog1 {
+    margin: 40px;
+    display: flex;
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 100ms;
+
+}
+
+.blog1:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.blog2:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.blog2 {
+    margin: 40px;
+    display: flex;
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 100ms;
+
+}
+
+.image img {
+    border-radius: 20px;
+}
+
+.blog1 .cont {
+    text-align: center;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.blog2 .cont {
+    text-align: center;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.cont .title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.read {
+    font-size: 18px;
+}
+
+.blog .mb {
+    margin-bottom: 10px;
+}
+
+.center {
+    margin: 700px;
+
+}
+
+.contact-us {
+    display: flex;
+}
+
+.contact-us img {
+
+    margin-left: 50px;
+
+}
+
+.contact-us .cont {
+
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
+
+.follow{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.line1{
+    height: 100px;
+    width: 0%;
+    border-radius: 200px;
+    border: 2px solid black;
+    background-color: black;
+   
+}
+
+.mail{
+    margin-right: 100px;
+    margin-left: 140px;
+}
+.phone{
+    margin-right: 60px;
+    margin-left: 100px;
+}
+
+.copyright{
+    height: 200px;
+    background-color: rgb(10, 0, 10);
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+
+.title{
+    color: rgb(12, 1, 1);
+    font-size: 40px;
+    margin-bottom: 45px;
+    margin-right: 70px;
+}
+
+.copy{
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+
+
+#NANDAn h1{
+    
+    width: 20px;
+    margin: auto;
+}
+
+#NANDAn p {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}

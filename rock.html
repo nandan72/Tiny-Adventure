@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TINY ADVENTURES-RPS</title>
+  <link rel="stylesheet" href="./css/rock.css">
+  <link rel="stylesheet" href="./css/nav.css">
+
+</head>
+<body>
+    <header>
+        <h3 class="heading">
+            TINY ADVENTURES
+        </h3>
+        <div class="line m-auto">
+            <hr>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="./index.html#GAMES">GAMES</a></li>
+                <li> <a href="./index.html#BLOG">BLOGS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+
+            <div class="search-login">
+                <div class="search">
+                    <input type="text" placeholder="Search Here">
+                </div>
+                <a class="btn" href="">LOGIN</a>
+            </div>
+        </nav>
+    </header>
+  <div class="selections">
+    <button class="selection" data-selection="rock">✊</button>
+    <button class="selection" data-selection="paper">✋</button>
+    <button class="selection" data-selection="scissors">✌</button>
+  </div>
+  <div class="results">
+    <div>
+      You
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+      Computer
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+
+  </div>
+</body>
+<script src="./js/rock.js" defer></script>
+</html>

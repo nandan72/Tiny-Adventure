@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+/*utility classes*/
+
+.m-auto {
+    margin: auto;
+    margin: 15px;
+}
+
+.m-auto2 {
+    margin: auto;
+    margin: 50px;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 1px 12px;
+    color: black;
+    background-color: rgb(152, 5, 152);
+    border-radius: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+.play a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin: 16px 145px;
+    background-color: rgb(152, 5, 152);
+    color: black;
+    padding: 10px 0px;
+    border-radius: 34px;
+}
+
+.play a:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+/*head and navbar*/
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(152, 5, 152);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 2px 5px;
+}
+
+.navbar ul li a {
+    list-style: none;
+    margin: 2px 20px;
+    background-color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(240, 7, 7);
+    color: white;
+}
+
+.search-login {
+    display: flex;
+    justify-content: space-evenly;
+}
